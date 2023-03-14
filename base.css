@@ -1,0 +1,24 @@
+#jumping-logo {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  translate: -50% -50%;
+  overflow: hidden;
+}
+
+#jumping-logo>span {
+  display: inline-block;
+}
+
+#jumping-logo:not(:has(>span)),
+#jumping-logo>span:not(.moving) {
+  visibility: hidden;
+}
+
+#jumping-logo>span.moving {
+  transition: var(--letter-move-duration) ease-in-out
+}
+
+#jumping-logo>span.below {
+  transform: translateY(100%);
+}

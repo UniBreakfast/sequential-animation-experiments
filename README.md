@@ -1,4 +1,4 @@
-# [Sequential Animation Experiments]()
+# [Sequential Animation Experiments](https://github.com/UniBreakfast/sequential-animation-experiments)
 
 ## Description
 
